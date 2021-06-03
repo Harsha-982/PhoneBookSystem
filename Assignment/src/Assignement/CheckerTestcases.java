@@ -31,10 +31,5 @@ public class Testcases {
 		String email =ch.validateemailid("h@gmail.com");
 		assertTrue(email.equals("h@gmail.com"));
 	}
-	@Test
-	void test4() {
-		Operation op=new Operation();
-		
-	}
 
 }
